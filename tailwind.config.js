@@ -23,7 +23,6 @@ module.exports = {
     require('@tailwindcss/aspect-ratio'),
     require('tailwindcss-opentype'),
     require("tw-elements/plugin.cjs"),
-    require('tailwind-custom-forms'),
     require('@formkit/tailwindcss'),
     require("tailwindcss-radix")(),
     require('tailwindcss-fluid-type')

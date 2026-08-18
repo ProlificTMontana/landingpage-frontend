@@ -62,22 +62,9 @@ const Explore = () => {
   return (
     <>
 
-      <div id='case-study' className='container mx-auto relative '>
+      <div id='explore' className='container mx-auto relative '>
         <div className=' flex lg:justify-between justify-center flex-wrap gap-x-20 gap-y-5 items-center text-white px-4 lg:px-20 pt-20 lg:pt-44 mx-20'>
-          <h1 className='text-3xl order-1 md:order-1 text-white font-semibold'>Case Studies</h1>
-          <div className='order-3 md:order-2'>
-
-            <ul className='flex lg:gap-x-4 gap-x-2 items-center justify-center'>
-              <li className='cursor-pointer rounded-lg hover:bg-gradient-to-r hover:from-[#FC466B]/40 hover:to-[#3F5EFB]/40 py-1 px-2 hover:scale-125 duration-200'>All</li>
-              <li className='cursor-pointer rounded-lg hover:bg-gradient-to-r hover:from-[#FC466B]/40 hover:to-[#3F5EFB]/40 py-1 px-2 hover:scale-125 duration-200'>Fashion</li>
-              <li className='cursor-pointer rounded-lg hover:bg-gradient-to-r hover:from-[#FC466B]/40 hover:to-[#3F5EFB]/40 py-1 px-2 hover:scale-125 duration-200'>Music</li>
-              <li className='cursor-pointer rounded-lg hover:bg-gradient-to-r hover:from-[#FC466B]/40 hover:to-[#3F5EFB]/40 py-1 px-2 hover:scale-125 duration-200'>Video</li>
-              <li className='cursor-pointer rounded-lg hover:bg-gradient-to-r hover:from-[#FC466B]/40 hover:to-[#3F5EFB]/40 py-1 px-2 hover:scale-125 duration-200'>Game</li>
-              <li className='cursor-pointer rounded-lg hover:bg-gradient-to-r hover:from-[#FC466B]/40 hover:to-[#3F5EFB]/40 py-1 px-2 hover:scale-125 duration-200 text-nowrap'>Real Estate</li>
-            </ul>
-
-          </div>
-
+          <h1 className='text-3xl order-1 md:order-1 text-white font-semibold'>Explore Our Work</h1>
           <div className='order-2 md:order-3'>
             <button class="px-6 py-2 bg-[#6318F1] text-white font-bold rounded-full transition-transform transform-gpu  hover:shadow-lg  hover:bg-gradient-to-r hover:from-[#FC466B]/40 hover:to-[#3F5EFB]/40 hover:scale-105 duration-150">
               Apply Now
